@@ -1,0 +1,17 @@
+.temp-box {
+    background-color: azure;
+    padding: 5px;
+
+    @mixin atSmall {
+        padding: 20px;
+    }
+
+    &__text {
+        font-size: 2rem;
+        color: darkcyan;
+
+        &--red {
+            color: $red;
+        }
+    }
+}

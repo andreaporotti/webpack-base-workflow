@@ -1,0 +1,6 @@
+/* MIXINS DEFINITIONS */
+@define-mixin atSmall {
+    @media (min-width: 480px) {
+        @mixin-content;
+    }
+}
