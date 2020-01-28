@@ -22,7 +22,7 @@ let config = {
     module: {
         rules: [
             {
-                test: /\.css$/i,
+                test: /\.s*css$/i, // gets both .css and .scss files
                 use: ['css-loader?url=false', {loader: 'postcss-loader', options: {plugins: postCSSPlugins}}]
             }
         ]
