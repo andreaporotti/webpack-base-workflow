@@ -1,5 +1,5 @@
 .temp-box {
-    background-color: azure;
+    background-color: rgba($green, .5);
     padding: 5px;
 
     @mixin atSmall {
@@ -12,6 +12,10 @@
 
         &--red {
             color: $red;
+        }
+
+        &--white {
+            color: $white;
         }
     }
 }

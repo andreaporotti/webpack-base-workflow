@@ -2,7 +2,7 @@
 
 class TempModule {
     constructor() {
-        alert('Message from the TempModule.js file');
+        //alert('Message from the TempModule.js file');
     }
 }
 

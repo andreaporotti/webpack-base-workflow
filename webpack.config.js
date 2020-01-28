@@ -1,5 +1,6 @@
 // get npm script name
 const currentScript = process.env.npm_lifecycle_event;
+const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const postCSSPlugins = [
     require('postcss-import'),
@@ -14,7 +15,8 @@ const postCSSPlugins = [
 let config = {
     entry: './src/assets/js/Main.js',
     output: {
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+        path: path.resolve(__dirname, 'dist')
     },
     plugins: [],
     module: {
