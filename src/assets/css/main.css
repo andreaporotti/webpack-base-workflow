@@ -1,4 +1,5 @@
 /* USE THIS FILE TO IMPORT OTHER CSS MODULES */
+@import 'normalize.css';
 @import 'modules/_variables.scss';
 @import 'modules/_mixins.scss';
 @import 'modules/_global.scss';
