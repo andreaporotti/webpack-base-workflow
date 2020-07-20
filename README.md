@@ -28,11 +28,19 @@ Here is a list of the implemented features:
 I left a few "temp" files as a placeholder to better understand the code organization.
 
 ## Requirements
-- **NodeJS** to run the `npm` package manager (tested on NodeJS 8.12.0 and `npm` 6.4.1)
+- **NodeJS** to run the `npm` package manager (tested on NodeJS 14.0.0 and `npm` 6.14.4)
 
 ## Installation
 - clone or download & extract this repository in a folder
 - run `npm install` to install all the dependencies
+
+## Update
+You can update packages and dependencies using the following commands.
+
+- Look for updated packages: `npm outdated`
+- Download updated packages: `npm update`
+- Look for security issues: `npm audit`
+- Apply security fixes, if any: `npm audit fix`
 
 ## Configuration
 
